@@ -9,7 +9,7 @@ const Home = () => {
    const dispatch = useDispatch();
 
    return (
-      <div className='w-[80%] mt-10 mx-auto grid grid-cols-4 gap-x-5'>
+      <div className='w-[80%] mt-10 mx-auto grid grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5'>
          {
             products.map((product) => (
                <div key={product?.id}>
